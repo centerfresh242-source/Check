@@ -2,6 +2,7 @@
   "ui_defs": [
     "ui/_global_variables.json",
     "ui/ui_template_buttons.json",
+    "ui/bt_quick_crafting.json",
     "ui/base_screen.json",
     "ui/start_screen.json",
     "ui/pause_screen.json",
