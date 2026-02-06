@@ -8,21 +8,24 @@
     "layer": "1",
     "texture": "$new_ui_button_texture",
     "$button_alpha|default": "$content_alpha",
-    "alpha": "$button_alpha"
+    "alpha": "$button_alpha",
+    "size": [ "100%", "100%" ]
   },
 
   "background_button_image": {
     "type": "image",
     "layer": "1",
     "texture": "textures/ui/button_borderless_imagelesshoverbg",
-    "alpha": "$content_alpha"
+    "alpha": "$content_alpha",
+    "size": [ "100%", "100%" ]
   },
 
   "locked_button_image": {
     "type": "image",
     "layer": "1",
     "texture": "$new_ui_button_texture",
-    "alpha": "$content_alpha"
+    "alpha": "$content_alpha",
+    "size": [ "100%", "100%" ]
   },
 
   "light_button_assets@common.button": {
@@ -462,6 +465,7 @@
     "font_type": "$font_type",
     "font_size": "$button_font_size",
     "$button_font_scale_factor|default": "1.0",
+    "size": [ "100%", "100%" ],
     "font_scale_factor": "$button_font_scale_factor",
     "$button_font_size|default": "normal",
     "$new_ui_label_offset|default": "$button_offset",
@@ -870,6 +874,7 @@
 
   "button_content_panel": {
     "type": "panel",
+    "size": [ "100%", "100%" ],
     "offset": "$button_offset",
     "controls": [
       {
