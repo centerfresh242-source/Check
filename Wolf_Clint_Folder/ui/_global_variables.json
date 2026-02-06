@@ -14,5 +14,14 @@
   "$wolf_accent_color": [ 0.2, 0.6, 1.0 ],
 
   "$wolf_main_bg_color": [ 0.05, 0.05, 0.1 ],
-  "$wolf_neon_primary": [ 0.0, 0.8, 1.0 ]
+  "$wolf_neon_primary": [ 0.0, 0.8, 1.0 ],
+
+  "$settings_panel_color": [ 0.1, 0.1, 0.15 ],
+  "$settings_text_color": [ 0.9, 0.9, 0.95 ],
+  "$settings_accent_color": [ 0.0, 0.7, 0.9 ],
+  "$settings_border_color": [ 0.3, 0.3, 0.4 ],
+  "$settings_toggle_size": [ "30px", "30px" ],
+  "$settings_slider_height": "20px",
+  "$settings_item_height": "45px",
+  "$settings_section_padding": "15px"
 }
