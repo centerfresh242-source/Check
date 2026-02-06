@@ -1,8 +1,6 @@
 {
   "ui_defs": [
     "ui/_global_variables.json",
-    "ui/common.json",
-    "ui/common_containers.json",
     "ui/common_buttons.json",
     "ui/base_screen.json",
     "ui/start_screen.json",
