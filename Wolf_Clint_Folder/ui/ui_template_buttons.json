@@ -498,11 +498,10 @@
           "type": "panel",
           "size": [ "100%c",  "10" ],
           "controls": [
-            {: {
+            {
                 "$single_line_label_color": "$dark_button_default_text_color",
                 "$underline_control": [
-                  {: {}
-                  }
+                  {}
                 ]
               }
             }
@@ -514,10 +513,10 @@
           "type": "panel",
           "size": [ "100%c",  "10" ],
           "controls": [
-            {: {
+            {
                 "$single_line_label_color": [ "0.215", "0.839",  "0.118" ],
                 "$underline_control": [
-                  {: {
+                  {
                       "$texture": "textures/ui/underline_focus"
                     }
                   }
@@ -1022,7 +1021,7 @@
           "size": [ "100%y", "100%" ]
         }
       },
-      {: {
+      {
           "size": [ "4px", "100%" ]
         }
       },
@@ -1211,7 +1210,7 @@
           ]
         }
       },
-      {: {
+      {
           "locked_control": "locked",
 
           "layer": "1",
@@ -1306,7 +1305,7 @@
                 ]
               }
             },
-            {: {
+            {
                 "$nested_content_label_padding|default": "false",
                 "$_content_to_label_padding_size|default": "$nested_no_padding",
                 "size": "$_content_to_label_padding_size",
@@ -1410,23 +1409,23 @@
     ],
 
     "controls": [
-      {: {
+      {
           "$tooltip_background_texture": "$tooltip_button_default_texture"
         }
       },
-      {: {
+      {
           "$tooltip_background_texture": "$tooltip_button_pressed_texture"
         }
       },
-      {: {
+      {
           "$tooltip_background_texture": "$tooltip_button_hover_texture"
         }
       },
-      {: {
+      {
           "$tooltip_background_texture": "$tooltip_button_locked_texture"
         }
       },
-      {: {} }
+      {} }
     ],
     "bindings": [
       {
@@ -1472,23 +1471,23 @@
     ],
 
     "controls": [
-      {: {
+      {
           "$tooltip_background_texture": "$tooltip_button_default_texture"
         }
       },
-      {: {
+      {
           "$tooltip_background_texture": "$tooltip_button_pressed_texture"
         }
       },
-      {: {
+      {
           "$tooltip_background_texture": "$tooltip_button_hover_texture"
         }
       },
-      {: {
+      {
           "$tooltip_background_texture": "$tooltip_button_locked_texture"
         }
       },
-      {: {} }
+      {} }
     ],
     "bindings": [
       {
@@ -1507,10 +1506,10 @@
     "$text_control|default": "common.empty_panel",
     "$text_control_size|default": [ "100%", "100%c" ],
     "controls": [
-      {: {
+      {
           "size": [ "100%", "100%c" ],
           "controls": [
-            {: {
+            {
                 "size": [ "100%", "100% + 4px" ],
                 "bindings": [
                   {

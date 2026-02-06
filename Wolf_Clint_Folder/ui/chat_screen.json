@@ -82,7 +82,6 @@
                     "controls": [
                         {
                             "send_image@send_image": {}
-                        }
                     ]
                 }
             },
@@ -108,7 +107,7 @@
                             "gamepad_x_button_image": {
                                 "type": "panel",
                                 "controls": [
-                                    {: {
+                                    {
                                             "$icon_description_bind_type": "none"
                                         }
                                     }
@@ -481,7 +480,7 @@
             10
         ],
         "controls": [
-            {: {
+            {
                     "size": [
                         9,
                         9
@@ -618,7 +617,7 @@
             {
                 "keyboard_button@chat.keyboard_button": {}
             },
-            {: {
+            {
                     "ignored": "$is_pregame"
                 }
             },
@@ -694,7 +693,7 @@
         "anchor_from": "left_middle",
         "anchor_to": "left_middle",
         "controls": [
-            {: {
+            {
                     "offset": [
                         0,
                         -1
@@ -719,7 +718,7 @@
                     "tts_name": "accessibility.button.tts.title",
                     "tts_control_header": "#back_button_accessibility_text",
                     "controls": [
-                        {: {
+                        {
                                 "$icon_description_bind": "#back_button_text"
                             }
                         }
@@ -756,7 +755,6 @@
                         },
                         {
                             "title@chat.title_text": {}
-                        }
                     ]
                 }
             }
@@ -799,12 +797,11 @@
                     "layer": 3
                 }
             },
-            {: {
+            {
                     "layer": 4
                 }
             },
-            {: {}
-            }
+            {}
         ]
     },
     "chat_background": {

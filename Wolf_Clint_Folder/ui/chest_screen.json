@@ -125,34 +125,34 @@
           "anchor_to": "bottom_left"
         }
       },
-      {: {} },
-      {: {
+      {} },
+      {
           "layer": 14
         }
       },
-      {: {} },
-      {: {
+      {} },
+      {
           "layer": 1,
           "controls": [
-            {: {} },
+            {} },
             {
               "chest_panel": {
                 "type": "panel",
                 "layer": 5,
                 "controls": [
                   { "small_chest_panel_top_half@chest.small_chest_panel_top_half": {} },
-                  {: {
+                  {
                     "font_type": "smooth"
                   } },
-                  {: {} },
-                  {: {} }
+                  {} },
+                  {} }
                 ]
               }
             },
-            {: {
+            {
               "font_type": "smooth"
             } },
-            {: {} }
+            {} }
           ]
         }
       }
@@ -171,36 +171,36 @@
           "anchor_to": "bottom_right"
         }
       },
-      {: {} },
-      {: {
+      {} },
+      {
           "layer": 11
         }
       },
-      {: {
+      {
           "control_name": "@chest.selected_item_details"
         }
       },
-      {: {
+      {
           "size": [ 176, 220 ],
           "layer": 1,
           "controls": [
-            {: {} },
+            {} },
             {
               "chest_panel": {
                 "type": "panel",
                 "layer": 5,
                 "controls": [
                   { "large_chest_panel_top_half@chest.large_chest_panel_top_half": {} },
-                  {: {
+                  {
                     "font_type": "smooth"
                   } },
-                  {: {} },
-                  {: {} }
+                  {} },
+                  {} }
                 ]
               }
             },
-            {: {} },
-            {: {} }
+            {} },
+            {} }
           ]
         }
       }
