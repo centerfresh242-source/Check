@@ -465,7 +465,6 @@
     "font_type": "$font_type",
     "font_size": "$button_font_size",
     "$button_font_scale_factor|default": "1.0",
-    "size": [ "100%", "100%" ],
     "font_scale_factor": "$button_font_scale_factor",
     "$button_font_size|default": "normal",
     "$new_ui_label_offset|default": "$button_offset",
