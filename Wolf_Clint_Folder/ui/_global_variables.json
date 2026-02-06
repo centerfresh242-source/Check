@@ -1,6 +1,5 @@
 {
   "namespace": "global",
-
   "$wolf_button_height": "25px",
   "$wolf_button_width": "200px",
   "$wolf_icon_small": "16px",
@@ -9,34 +8,71 @@
   "$wolf_main_padding": "10px",
   "$wolf_header_height": "40px",
   "$wolf_footer_height": "30px",
-
-  "$wolf_text_color": [ 1.0, 1.0, 1.0 ],
-  "$wolf_accent_color": [ 0.2, 0.6, 1.0 ],
-
-  "$wolf_main_bg_color": [ 0.05, 0.05, 0.1 ],
-  "$wolf_neon_primary": [ 0.0, 0.8, 1.0 ],
-
-  "$settings_panel_color": [ 0.1, 0.1, 0.15 ],
-  "$settings_text_color": [ 0.9, 0.9, 0.95 ],
-  "$settings_accent_color": [ 0.0, 0.7, 0.9 ],
-  "$settings_border_color": [ 0.3, 0.3, 0.4 ],
-  "$settings_toggle_size": [ "30px", "30px" ],
+  "$wolf_text_color": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "$wolf_accent_color": [
+    0.2,
+    0.6,
+    1.0
+  ],
+  "$wolf_main_bg_color": [
+    0.05,
+    0.05,
+    0.1
+  ],
+  "$wolf_neon_primary": [
+    0.0,
+    0.8,
+    1.0
+  ],
+  "$settings_panel_color": [
+    0.1,
+    0.1,
+    0.15
+  ],
+  "$settings_text_color": [
+    0.9,
+    0.9,
+    0.95
+  ],
+  "$settings_accent_color": [
+    0.0,
+    0.7,
+    0.9
+  ],
+  "$settings_border_color": [
+    0.3,
+    0.3,
+    0.4
+  ],
+  "$settings_toggle_size": [
+    "30px",
+    "30px"
+  ],
   "$settings_slider_height": "20px",
   "$settings_item_height": "45px",
   "$settings_section_padding": "15px",
-
-  "$text_color": [ 1.0, 1.0, 1.0 ],
+  "$text_color": [
+    1.0,
+    1.0,
+    1.0
+  ],
   "$content_alpha": 1.0,
-  "$border_color": [ 0.3, 0.3, 0.4 ],
+  "$border_color": [
+    0.3,
+    0.3,
+    0.4
+  ],
   "$border_layer": 1,
   "$new_ui_button_texture": "textures/ui/button_default.png",
   "$pressed_button_texture": "textures/ui/button_pressed.png",
   "$hover_button_texture": "textures/ui/button_hover.png",
   "$locked_button_texture": "textures/ui/disabledButtonNoBorder",
-
   "$pressed_button_name": "button.press",
   "$menu_button_name": "button.menu",
-
   "$is_holographic": false,
   "$is_pregame": false
 }

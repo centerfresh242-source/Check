@@ -1,47 +1,73 @@
 {
   "namespace": "pause",
-
   "pause_screen_slide_animation": {
     "anim_type": "offset",
     "easing": "out_back",
     "duration": 0.3,
-    "from": [ "-100%x", "0px" ],
-    "to": [ "0px", "0px" ],
+    "from": [
+      "-100%x",
+      "0px"
+    ],
+    "to": [
+      "0px",
+      "0px"
+    ],
     "play_event": "screen.on_open"
   },
-
   "pause_screen_content": {
     "type": "panel",
     "controls": [
       {
         "sliding_panel": {
           "type": "panel",
-          "size": [ "200px", "100%" ],
+          "size": [
+            "200px",
+            "100%"
+          ],
           "anchor_from": "top_left",
           "anchor_to": "top_left",
-          "anims": [ "@pause.pause_screen_slide_animation" ],
+          "anims": [
+            "@pause.pause_screen_slide_animation"
+          ],
           "controls": [
             {
               "background": {
                 "type": "image",
                 "texture": "textures/ui/background.png",
-                "size": [ "100%", "100%" ],
-                "renderer": "gradient_mask", 
-                "nine_slice_size": [ "10px", "10px", "10px", "10px" ], 
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "renderer": "gradient_mask",
+                "nine_slice_size": [
+                  "10px",
+                  "10px",
+                  "10px",
+                  "10px"
+                ],
                 "layer": 1
               }
             },
             {
               "button_list": {
                 "type": "stack_panel",
-                "size": [ "180px", "100%" ],
-                "offset": [ "10px", "10px" ],
+                "size": [
+                  "180px",
+                  "100%"
+                ],
+                "offset": [
+                  "10px",
+                  "10px"
+                ],
                 "layer": 2,
                 "controls": [
                   {
                     "resume_button": {
                       "type": "panel",
-                      "size": [ "100%", "25px" ],
+                      "size": [
+                        "100%",
+                        "25px"
+                      ],
                       "controls": [
                         {
                           "btn@common_buttons.wolf_standard_button": {
@@ -61,12 +87,13 @@
       }
     ]
   },
-
   "main_control": {
     "type": "panel",
     "layer": 10,
     "controls": [
-      { "pause_content@pause.pause_screen_content": {} }
+      {
+        "pause_content@pause.pause_screen_content": {}
+      }
     ],
     "$screen_animations": [],
     "background_alpha": 0.5

@@ -1,6 +1,5 @@
 {
   "namespace": "wolf_base",
-
   "wolf_background": {
     "type": "panel",
     "is_opaque": true,
@@ -9,7 +8,10 @@
         "bg_image": {
           "type": "image",
           "texture": "textures/ui/background.png",
-          "size": [ "100%", "100%" ], 
+          "size": [
+            "100%",
+            "100%"
+          ],
           "anchor_from": "center",
           "anchor_to": "center",
           "layer": -10
@@ -21,7 +23,10 @@
           "texture": "textures/ui/blank.png",
           "color": "$wolf_main_bg_color",
           "alpha": 0.4,
-          "size": [ "100%", "100%" ],
+          "size": [
+            "100%",
+            "100%"
+          ],
           "layer": 2
         }
       },
@@ -30,7 +35,9 @@
           "type": "panel",
           "layer": 10,
           "controls": [
-            { "main_content@$middle_content": { } }
+            {
+              "main_content@$middle_content": {}
+            }
           ]
         }
       }

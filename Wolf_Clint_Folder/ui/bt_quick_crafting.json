@@ -1,59 +1,81 @@
 {
   "namespace": "bt_quick_crafting",
-
   "quick_craft_button": {
     "type": "button",
-    "size": [ 26, 26 ],
+    "size": [
+      26,
+      26
+    ],
     "layer": 3,
     "controls": [
       {
         "default": {
           "type": "image",
           "texture": "textures/ui/button_default.png",
-          "size": [ "100%", "100%" ]
+          "size": [
+            "100%",
+            "100%"
+          ]
         }
       },
       {
         "hover": {
           "type": "image",
           "texture": "textures/ui/button_hover.png",
-          "size": [ "100%", "100%" ]
+          "size": [
+            "100%",
+            "100%"
+          ]
         }
       },
       {
         "pressed": {
           "type": "image",
           "texture": "textures/ui/button_pressed.png",
-          "size": [ "100%", "100%" ]
+          "size": [
+            "100%",
+            "100%"
+          ]
         }
       }
     ]
   },
-
   "stonecutter_quick_craft_button": {
     "type": "button",
-    "size": [ 24, 24 ],
+    "size": [
+      24,
+      24
+    ],
     "layer": 3,
     "controls": [
       {
         "default": {
           "type": "image",
           "texture": "textures/ui/button_default.png",
-          "size": [ "100%", "100%" ]
+          "size": [
+            "100%",
+            "100%"
+          ]
         }
       },
       {
         "hover": {
           "type": "image",
           "texture": "textures/ui/button_hover.png",
-          "size": [ "100%", "100%" ]
+          "size": [
+            "100%",
+            "100%"
+          ]
         }
       },
       {
         "pressed": {
           "type": "image",
           "texture": "textures/ui/button_pressed.png",
-          "size": [ "100%", "100%" ]
+          "size": [
+            "100%",
+            "100%"
+          ]
         }
       }
     ]
