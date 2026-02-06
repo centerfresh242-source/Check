@@ -1944,14 +1944,14 @@
 
   "possible_store_mismatch": {
     "type": "panel",
-    "size": [ "100%", "100%cm" ],
+    "size": [ "100%", "100%c" ],
     "$realm_collection_name|default": "",
     "controls": [
       {
         "panel_content": {
           "type": "stack_panel",
           "orientation": "horizontal",
-          "size": [ "100%", "100%cm" ],
+          "size": [ "100%", "100%c" ],
           "controls": [
             {
               "padded_icon_0@common.empty_panel": {
@@ -2001,7 +2001,7 @@
   "realms_subscription_stack": {
     "type": "stack_panel",
     "orientation": "horizontal",
-    "size": [ "100%", "100%cm" ],
+    "size": [ "100%", "100%c" ],
     "$realms_plus_name|default": false,
     "controls": [
       {
@@ -2023,14 +2023,14 @@
       {
         "pad": {
           "type": "panel",
-          "size": [ "4px", "100%sm" ]
+          "size": [ "4px", "100%c" ]
         }
       },
       {
         "info": {
           "type": "stack_panel",
           "orientation": "vertical",
-          "size": [ "fill", "100%sm" ],
+          "size": [ "fill", "100%c" ],
           "controls": [
             {
               "realm_name@common.minecraftTenLabel": {
@@ -2092,11 +2092,11 @@
 
   "realms_subscription_main": {
     "type": "panel",
-    "size": [ "100%", "100%cm" ],
+    "size": [ "100%", "100%c" ],
     "controls": [
       {
         "black_background@general_section.background": {
-          "size": [ "100%", "100%sm" ]
+          "size": [ "100%", "100%c" ]
         }
       },
       {
@@ -2125,7 +2125,7 @@
       {
         "middle_panel": {
           "type": "panel",
-          "size": [ "100%", "100%cm" ],
+          "size": [ "100%", "100%c" ],
           "controls": [
             {
               "black_background@general_section.background": {
@@ -2166,13 +2166,13 @@
       {
         "bottom_panel": {
           "type": "panel",
-          "size": [ "100%", "100%cm" ],
+          "size": [ "100%", "100%c" ],
           "controls": [
             {
               "black_background@general_section.background": {
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
-                "size": [ "100%", "100%sm" ]
+                "size": [ "100%", "100%c" ]
               }
             },
             {
