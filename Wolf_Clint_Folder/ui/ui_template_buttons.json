@@ -26,7 +26,9 @@
     "texture": "$new_ui_button_texture",
     "alpha": "$content_alpha",
     "size": [ "100%", "100%" ]
-  }: {
+  },
+
+  "light_button_assets": {
     "$default_button_texture|default": "textures/ui/button_borderless_light",
     "$default_content_alpha|default": "1",
     "$hover_content_alpha|default": "1",
@@ -39,7 +41,9 @@
     "$default_font|default": "default",
     "$font_type": "smooth",
     "$locked_alpha": "1"
-  }: {
+  },
+
+  "dark_button_assets": {
     "$default_button_texture|default": "textures/ui/button_borderless_dark",
     "$hover_button_texture|default": "textures/ui/button_borderless_darkhover",
     "$pressed_button_texture|default": "textures/ui/button_borderless_darkpressed",

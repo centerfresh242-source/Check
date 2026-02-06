@@ -29,9 +29,9 @@
     "size": [ "90%", "default" ],
     "color": "$title_text_color",
     "layer": 2
-  }: {
-    "$item_collection_name": "container_items"
   },
+
+  "$item_collection_name": "container_items",
 
   "small_chest_grid": {
     "type": "grid",
