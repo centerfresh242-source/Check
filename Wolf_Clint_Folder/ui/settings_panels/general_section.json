@@ -2811,7 +2811,8 @@
           "property_bag": {
             "reset_group": "audio"
           }
-        },
+        }
+      },
       {
         "option_toggle_default_font_override@settings_common.option_toggle": {
           "$option_label": "options.dev_toggle_default_font_overrides",
