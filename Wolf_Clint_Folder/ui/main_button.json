@@ -1,0 +1,10 @@
+{
+  "namespace": "main_button",
+  "button_panel": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "default"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "namespace": "common_store",
+  "store_panel": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "default"
+    ]
+  }
+}

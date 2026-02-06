@@ -1,0 +1,10 @@
+{
+  "namespace": "achievement",
+  "achievement_panel": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "default"
+    ]
+  }
+}

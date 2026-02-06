@@ -1,0 +1,10 @@
+{
+  "namespace": "bt_chat_tweaks",
+  "chat_panel": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "default"
+    ]
+  }
+}

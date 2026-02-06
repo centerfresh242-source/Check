@@ -1,0 +1,10 @@
+{
+  "namespace": "bt_brewing_guide",
+  "brewing_panel": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "default"
+    ]
+  }
+}

@@ -23,5 +23,20 @@
   "$settings_toggle_size": [ "30px", "30px" ],
   "$settings_slider_height": "20px",
   "$settings_item_height": "45px",
-  "$settings_section_padding": "15px"
+  "$settings_section_padding": "15px",
+
+  "$text_color": [ 1.0, 1.0, 1.0 ],
+  "$content_alpha": 1.0,
+  "$border_color": [ 0.3, 0.3, 0.4 ],
+  "$border_layer": 1,
+  "$new_ui_button_texture": "textures/ui/button_default.png",
+  "$pressed_button_texture": "textures/ui/button_pressed.png",
+  "$hover_button_texture": "textures/ui/button_hover.png",
+  "$locked_button_texture": "textures/ui/disabledButtonNoBorder",
+
+  "$pressed_button_name": "button.press",
+  "$menu_button_name": "button.menu",
+
+  "$is_holographic": false,
+  "$is_pregame": false
 }

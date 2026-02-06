@@ -1,0 +1,10 @@
+{
+  "namespace": "host_options",
+  "host_panel": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "default"
+    ]
+  }
+}

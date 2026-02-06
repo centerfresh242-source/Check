@@ -1,0 +1,10 @@
+{
+  "namespace": "chat_settings",
+  "settings_panel": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "default"
+    ]
+  }
+}

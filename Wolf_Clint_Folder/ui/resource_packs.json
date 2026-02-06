@@ -1,0 +1,10 @@
+{
+  "namespace": "resource_packs",
+  "packs_panel": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "default"
+    ]
+  }
+}

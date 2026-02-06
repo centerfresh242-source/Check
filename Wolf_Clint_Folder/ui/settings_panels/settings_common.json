@@ -1,0 +1,76 @@
+{
+  "namespace": "settings_common",
+
+  "option_toggle": {
+    "type": "panel",
+    "size": [ "100%", "24px" ]
+  },
+
+  "action_button": {
+    "type": "panel",
+    "size": [ "100%", "24px" ]
+  },
+
+  "link_button": {
+    "type": "panel",
+    "size": [ "100%", "24px" ]
+  },
+
+  "option_custom_control": {
+    "type": "panel",
+    "size": [ "100%", "24px" ]
+  },
+
+  "option_dropdown": {
+    "type": "panel",
+    "size": [ "100%", "24px" ]
+  },
+
+  "option_group_label": {
+    "type": "label",
+    "text": "default",
+    "size": [ "100%", "24px" ]
+  },
+
+  "option_radio_dropdown_group": {
+    "type": "panel",
+    "size": [ "100%", "24px" ]
+  },
+
+  "option_slider": {
+    "type": "panel",
+    "size": [ "100%", "24px" ]
+  },
+
+  "option_text_edit": {
+    "type": "panel",
+    "size": [ "100%", "24px" ]
+  },
+
+  "option_text_edit_control": {
+    "type": "panel",
+    "size": [ "100%", "24px" ]
+  },
+
+  "option_text_edit_with_text_button": {
+    "type": "panel",
+    "size": [ "100%", "24px" ]
+  },
+
+  "option_toggle_control": {
+    "type": "panel",
+    "size": [ "100%", "24px" ]
+  },
+
+  "radio_with_label": {
+    "type": "panel",
+    "size": [ "100%", "24px" ]
+  },
+
+  "white_label": {
+    "type": "label",
+    "text": "default",
+    "color": [ "1.0", "1.0", "1.0" ],
+    "size": [ "100%", "24px" ]
+  }
+}

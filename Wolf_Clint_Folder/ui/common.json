@@ -1,0 +1,40 @@
+{
+  "namespace": "common",
+
+  "button": {
+    "type": "panel",
+    "size": [ "100%", "100%" ]
+  },
+
+  "empty_panel": {
+    "type": "panel",
+    "size": [ "0px", "0px" ]
+  },
+
+  "single_line_label": {
+    "type": "label",
+    "size": [ "100%", "default" ],
+    "text": "default"
+  },
+
+  "underline": {
+    "type": "image",
+    "size": [ "100%", "1px" ],
+    "texture": "textures/ui/underline"
+  },
+
+  "tooltip_button_content": {
+    "type": "panel",
+    "size": [ "100%", "100%" ]
+  },
+
+  "static_tooltip_popup_with_image_and_text": {
+    "type": "panel",
+    "size": [ "100%", "100%" ]
+  },
+
+  "dynamic_tooltip_popup_with_image_and_text": {
+    "type": "panel",
+    "size": [ "100%", "100%" ]
+  }
+}
