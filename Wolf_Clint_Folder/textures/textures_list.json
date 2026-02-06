@@ -1,10 +1,17 @@
 [
   "ui/background",
+  "ui/blank",
   "ui/white",
   "ui/wolf_logo",
+  "ui/wolf_icon",
   "ui/button_default",
   "ui/button_hover",
   "ui/button_pressed",
   "ui/resume_icon",
-  "ui/pause_background"
+  "ui/pause_background",
+  "ui/lunarchest",
+  "ui/chat_down_arrow",
+  "ui/chat_keyboard",
+  "ui/chat_send",
+  "ui/gear"
 ]

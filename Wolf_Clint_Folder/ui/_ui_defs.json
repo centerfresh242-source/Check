@@ -5,7 +5,6 @@
     "ui/base_screen.json",
     "ui/start_screen.json",
     "ui/pause_screen.json",
-    "ui/crafting_screen.json",
     "ui/inventory_screen.json",
     "ui/inventory_screen_pocket.json",
     "ui/brewing_stand_screen.json",
@@ -13,9 +12,10 @@
     "ui/chat_screen.json",
     "ui/chest_screen.json",
     "ui/command_block_screen.json",
+    "ui/loom_screen.json",
+    "ui/loom_screen_pocket.json",
     "ui/stonecutter_screen.json",
     "ui/stonecutter_screen_pocket.json",
-    "ui/trade_screen.json",
     "ui/trade_2_screen.json",
     "ui/trade_2_screen_pocket.json"
   ]
