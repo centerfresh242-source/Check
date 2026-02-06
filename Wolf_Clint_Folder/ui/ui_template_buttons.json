@@ -1024,7 +1024,7 @@
     "type": "stack_panel",
     "orientation": "horizontal",
     "size": [ "100% - 6px", "100% - 3px" ],
-    "offset": [ "0",  "-0.5" ],
+    "offset": [ "0px",  "-0.5px" ],
     "controls": [
       {
         "image": {
@@ -1036,7 +1036,7 @@
       },
       {
         "image_to_label_padding@common.empty_panel": {
-          "size": [ "4", "100%" ]
+          "size": [ "4px", "100%" ]
         }
       },
       {
@@ -1067,7 +1067,7 @@
   "nested_six_part_label_control": {
     "type": "panel",
     "size": [ "100% - 6px", "100% - 2px" ],
-    "offset": [ "0",  "-1" ],
+    "offset": [ "0px",  "-1px" ],
     "$left_top_label_definition|default": "common_buttons.nested_six_part_empty_definition",
     "$left_middle_label_definition|default": "common_buttons.nested_six_part_empty_definition",
     "$left_bottom_label_definition|default": "common_buttons.nested_six_part_empty_definition",
@@ -1148,8 +1148,8 @@
       {
         "image_panel": {
           "type": "panel",
-          "size": [ "22",  "22" ],
-          "offset": [ "0",  "1.5" ],
+          "size": [ "22px",  "22px" ],
+          "offset": [ "0px",  "1.5px" ],
           "layer": "1",
           "controls": [
             {
@@ -1312,7 +1312,7 @@
                     "background@$nested_content_background_assets": {
                       "layer": "-1",
                       "size": [ "100%sm + 2px", "100%sm + 1px" ],
-                      "offset": [ "0",  "-0.5" ]
+                      "offset": [ "0px",  "-0.5px" ]
                     }
                   },
                   { "control@$nested_content_control": {} },

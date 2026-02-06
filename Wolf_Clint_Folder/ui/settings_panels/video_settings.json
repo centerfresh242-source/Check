@@ -5,7 +5,7 @@
     "$toggle_view_binding_name": "graphics_button_toggle",
     "$glyph_texture": "textures/glyphs/video_glyph",
     "$glyph_color_texture": "textures/glyphs/video_glyph_color",
-    "$glyph_size": [ 17, 17 ],
+    "$glyph_size": [ "17px", "17px" ],
     "$button_text": "Graphics",
     "$toggle_property_bag": {
       "#panel_title": "Video Settings"
