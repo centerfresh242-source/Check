@@ -16,7 +16,7 @@
       {
         "sliding_panel": {
           "type": "panel",
-          "size": [ "200px", "100%" ], // % is okay for height!
+          "size": [ "200px", "100%" ],
           "anchor_from": "top_left",
           "anchor_to": "top_left",
           "anims": [ "@pause.pause_screen_slide_animation" ],
@@ -26,7 +26,6 @@
                 "type": "image",
                 "texture": "textures/ui/pause_background",
                 "size": [ "100%", "100%" ],
-                /* This keeps the corners from stretching */
                 "renderer": "gradient_mask", 
                 "nine_slice_size": [ "10px", "10px", "10px", "10px" ], 
                 "layer": 1
@@ -42,7 +41,7 @@
                   {
                     "resume_button": {
                       "type": "panel",
-                      "size": [ "100%", "25px" ], // Mix of % and px is fine
+                      "size": [ "100%", "25px" ],
                       "controls": [
                         {
                           "btn@common_buttons.wolf_standard_button": {

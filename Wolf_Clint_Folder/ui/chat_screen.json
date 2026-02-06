@@ -3,64 +3,64 @@
     "down_arrow_image": {
         "type": "image",
         "size": [
-            7,
-            8
+            "7px",
+            "8px"
         ],
         "texture": "textures/ui/chat_down_arrow"
     },
     "keyboard_image": {
         "type": "image",
         "size": [
-            9,
-            7
+            "9px",
+            "7px"
         ],
         "texture": "textures/ui/chat_keyboard"
     },
     "gear_image": {
         "type": "image",
         "size": [
-            14,
-            14
+            "14px",
+            "14px"
         ],
         "texture": "textures/ui/gear"
     },
     "previous_message_image": {
         "type": "image",
         "size": [
-            5,
-            14
+            "5px",
+            "14px"
         ],
         "texture": "textures/ui/advanchat/previous_message"
     },
     "next_message_image": {
         "type": "image",
         "size": [
-            5,
-            14
+            "5px",
+            "14px"
         ],
         "texture": "textures/ui/advanchat/next_message"
     },
     "autocomplete_back_image": {
         "type": "image",
         "size": [
-            10,
-            14
+            "10px",
+            "14px"
         ],
         "texture": "textures/ui/advanchat/autocomplete_back"
     },
     "autocomplete_image": {
         "type": "image",
         "size": [
-            10,
-            14
+            "10px",
+            "14px"
         ],
         "texture": "textures/ui/advanchat/autocomplete"
     },
     "send_image": {
         "type": "image",
         "size": [
-            21,
-            18
+            "21px",
+            "18px"
         ],
         "texture": "textures/ui/chat_send"
     },
@@ -68,8 +68,8 @@
         "type": "stack_panel",
         "orientation": "horizontal",
         "size": [
-            44,
-            17
+            "44px",
+            "17px"
         ],
         "controls": [
             {
@@ -91,7 +91,7 @@
                     "type": "stack_panel",
                     "orientation": "horizontal",
                     "size": [
-                        23,
+                        "23px",
                         "100%"
                     ],
                     "controls": [
@@ -99,7 +99,7 @@
                             "side_padding": {
                                 "type": "panel",
                                 "size": [
-                                    2,
+                                    "2px",
                                     "100%"
                                 ]
                             }
@@ -154,8 +154,8 @@
     },
     "small_button@common_buttons.light_content_button": {
         "size": [
-            27,
-            27
+            "27px",
+            "27px"
         ],
         "$pressed_button_name": "button.send",
         "anchor_from": "bottom_right",
@@ -163,8 +163,8 @@
     },
     "advanchat_button@common_buttons.light_glyph_button": {
         "size": [
-            27,
-            27
+            "27px",
+            "27px"
         ],
         "$pressed_button_name": "button.send",
         "anchor_from": "bottom_right",
@@ -225,7 +225,7 @@
         "$anchor": "bottom_right",
         "size": [
             "100%c",
-            27
+            "27px"
         ],
         "$tts_enabled|default": true,
         "focus_enabled": "$tts_enabled",
@@ -284,7 +284,7 @@
         "$scrolling_content_anchor_to": "bottom_left",
         "factory": {
             "name": "messages_factory",
-            "max_children_size": 100,
+            "max_children_size": "100",
             "control_ids": {
                 "chat_screen_messages": "chat_screen_messages@chat.message_tts_wrapper"
             }
@@ -299,12 +299,12 @@
         "anchor_from": "bottom_left",
         "anchor_to": "bottom_left",
         "offset": [
-            2,
-            -27
+            "2px",
+            "-27px"
         ],
         "$scrolling_content": "chat.messages_stack_panel",
         "$scroll_size": [
-            5,
+            "5px",
             "100%-4px"
         ],
         "$jump_to_bottom_on_update": true,
@@ -316,13 +316,13 @@
         "anchor_to": "top_left",
         "size": [
             "fill",
-            27
+            "27px"
         ],
-        "max_length": 512,
+        "max_length": "512",
         "always_listening": true,
         "$text_box_name": "#message_text_box",
         "$text_edit_box_content_binding_name": "#message_text_box_content",
-        "default_focus_precedence": 1,
+        "default_focus_precedence": "1",
         "$focus_id": "text_edit_box_focus_id",
         "$focus_override_right": "keyboard_button_focus_id",
         "$focus_override_left": "chat_settings_button_focus_id",
@@ -469,7 +469,7 @@
             "100%",
             "100%c"
         ],
-        "texture": "textures/ui/White",
+        "texture": "textures/ui/white",
         "color": [
             0.0,
             0.0,
@@ -482,18 +482,18 @@
         "anchor_to": "top_left",
         "size": [
             "100%",
-            10
+            "10px"
         ],
         "controls": [
             {
                 "auto_complete_item_renderer@common.item_renderer": {
                     "size": [
-                        9,
-                        9
+                        "9px",
+                        "9px"
                     ],
                     "offset": [
-                        2,
-                        0
+                        "2px",
+                        "0px"
                     ],
                     "anchor_from": "left_middle",
                     "anchor_to": "left_middle",
@@ -512,8 +512,8 @@
                     "type": "label",
                     "color": "$chat_text_color",
                     "offset": [
-                        2,
-                        0
+                        "2px",
+                        "0px"
                     ],
                     "anchor_from": "left_middle",
                     "anchor_to": "left_middle",
@@ -552,8 +552,8 @@
                         "100%"
                     ],
                     "min_size": [
-                        0,
-                        0
+                        "0px",
+                        "0px"
                     ],
                     "anchor_from": "bottom_left",
                     "anchor_to": "bottom_left",
@@ -589,8 +589,8 @@
         "anchor_from": "bottom_left",
         "anchor_to": "bottom_left",
         "offset": [
-            0,
-            -27
+            "0px",
+            "-27px"
         ],
         "size": [
             "100%",
@@ -612,11 +612,11 @@
         "anchor_to": "bottom_middle",
         "size": [
             "100%",
-            27
+            "27px"
         ],
         "min_size": [
             "100%",
-            27
+            "27px"
         ],
         "alpha": 0.4,
         "controls": [
@@ -653,8 +653,8 @@
             {
                 "send_button@chat.send_button": {
                     "offset": [
-                        -20,
-                        0
+                        "-20px",
+                        "0px"
                     ]
                 }
             }
@@ -672,12 +672,12 @@
                     "type": "label",
                     "size": [
                         "default",
-                        10
+                        "10px"
                     ],
                     "text": "#text",
                     "offset": [
-                        0,
-                        -1
+                        "0px",
+                        "-1px"
                     ],
                     "color": "$title_text_color",
                     "layer": 2,
@@ -703,8 +703,8 @@
             {
                 "back_button@common.back_button": {
                     "offset": [
-                        0,
-                        -1
+                        "0px",
+                        "-1px"
                     ],
                     "$button_text_binding_type": "global",
                     "$button_text": "#back_button_text"
@@ -715,11 +715,11 @@
                     "type": "input_panel",
                     "size": [
                         "100%c",
-                        26
+                        "26px"
                     ],
                     "offset": [
-                        -4,
-                        -1
+                        "-4px",
+                        "-1px"
                     ],
                     "$gamepad_helper_icon_description_text_color": "$light_glyph_default_color",
                     "$gamepad_helper_icon_description_shadow": false,
@@ -752,14 +752,14 @@
                     "type": "panel",
                     "size": [
                         "100%",
-                        19
+                        "19px"
                     ],
                     "controls": [
                         {
                             "back_button_content_panel@chat.back_content_panel": {
                                 "offset": [
-                                    2,
-                                    0
+                                    "2px",
+                                    "0px"
                                 ]
                             }
                         },
@@ -825,7 +825,7 @@
             "100%",
             "100%"
         ],
-        "texture": "textures/ui/White",
+        "texture": "textures/ui/white",
         "color": [
             0.0,
             0.0,

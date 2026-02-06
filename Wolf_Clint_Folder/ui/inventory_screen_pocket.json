@@ -5,8 +5,8 @@
 		"controls": [
 			{
 				"quick_craft_button@bt_quick_crafting.quick_craft_button": {
-					"size": [40, 40],
-					"offset": [10, 0]
+				"size": ["40px", "40px"],
+				"offset": ["10px", "0px"]
 				}
 			}
 		]

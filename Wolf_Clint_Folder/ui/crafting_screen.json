@@ -1,12 +1,9 @@
 {
   "namespace": "wolf_crafting",
 
-  /* 1. THE QUICK CRAFT BUTTON - FIXED PX UNITS */
   "quick_craft_button@common_buttons.wolf_standard_button": {
     "size": [ "20px", "20px" ],
-    /* §l» is a bold arrow symbol */
     "$button_text": "§l»", 
-    /* This command crafts as many items as possible at once */
     "$pressed_button_name": "button.crafting_output_all", 
     "anchor_from": "top_right",
     "anchor_to": "top_right",
@@ -20,12 +17,10 @@
     ]
   },
 
-  /* 2. INTEGRATING INTO THE CRAFTING GRID */
   "crafting_panel": {
     "type": "panel",
     "controls": [
       {
-        /* Standard crafting grid hook */
         "content@common_containers.crafting_grid": {
           "controls": [
             { "quick_craft@wolf_crafting.quick_craft_button": { } }
@@ -35,18 +30,12 @@
     ]
   },
 
-  /* 3. MAIN SCREEN ATTACHMENT */
   "main_control@wolf_base.wolf_background": {
-    /* Set to true to hide the 3D world panorama */
     "is_opaque": true, 
-    /* Ensures this screen renders over everything else */
     "layer": 1,
     "$middle_content": "wolf_crafting.crafting_panel",
-    
-    /* Wolf Client Styling */
     "$screen_animations": [],
     "$container_title_color": "$wolf_accent_color",
-    
-    /* Forces the background texture to render properly */
     "$view_distance_tier": 0
   }
+}

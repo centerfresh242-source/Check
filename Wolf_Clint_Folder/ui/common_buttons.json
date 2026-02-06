@@ -10,31 +10,26 @@
   },
 
   "wolf_standard_button@common.button": {
-    /* FIXED: Using percentage for width allows buttons to resize based on their container */
     "size": [ "100%", "25px" ], 
     "controls": [
       {
         "content": {
           "type": "stack_panel",
           "orientation": "horizontal",
-          /* FIXED: Using '100%c' tells the panel to only be as wide as the icon + text */
           "size": [ "100%c", "100%" ], 
           "layer": 3,
           "controls": [
             { "icon@common_buttons.wolf_button_icon": { "visible": "$show_icon" } },
-            /* Added a tiny spacer so the icon doesn't touch the text */
             { "spacer": { "type": "panel", "size": [ "4px", "1px" ], "visible": "$show_icon" } },
             {
               "label_panel": {
                 "type": "panel",
-                /* 'fill' takes up the remaining space in the stack */
                 "size": [ "fill", "100%" ], 
                 "controls": [
                   {
                     "label": {
                       "type": "label",
                       "text": "$button_text",
-                      /* shadow makes text easier to read on dark buttons */
                       "shadow": true, 
                       "color": "$wolf_text_color"
                     }

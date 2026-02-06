@@ -1,13 +1,11 @@
 {
   "namespace": "wolf_trade",
 
-  /* 1. THE TRADE PREVIEW PANEL */
   "trade_item_preview": {
     "type": "panel",
     "size": [ "100px", "100px" ],
     "controls": [
       {
-        /* UPDATED: Reference common_containers for 1.21 stability */
         "trade_grid@common_containers.trade_grid": {
           "layer": 2,
           "bindings": [
@@ -18,16 +16,14 @@
           ]
         }
       },
-      /* 2. Futuristic "Locked" Overlay */
       {
         "lock_overlay": {
           "type": "image",
-          "texture": "textures/ui/white",
+          "texture": "textures/ui/blank",
           "color": "$wolf_warning_color",
           "alpha": 0.2,
           "size": [ "100px", "100px" ],
           "layer": 3,
-          /* FIXED: Using 'visible' binding instead of 'ignored' string */
           "bindings": [
             {
               "binding_name": "(not #is_trade_tier_unlocked)",
@@ -39,12 +35,10 @@
     ]
   },
 
-  /* 3. MAIN ATTACHMENT */
   "main_control@wolf_base.wolf_background": {
     "is_opaque": true,
     "$middle_content": "wolf_trade.trade_item_preview",
     "$screen_animations": [],
-    /* Wolf Client Accent Styling */
     "$container_title_color": "$wolf_accent_color"
   }
 }

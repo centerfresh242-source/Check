@@ -1,0 +1,103 @@
+{
+  "namespace": "common",
+
+  "gamepad_helper_x": {
+    "type": "image",
+    "size": [ "24px", "24px" ]
+  },
+
+  "gamepad_helper_b": {
+    "type": "image",
+    "size": [ "24px", "24px" ]
+  },
+
+  "base_screen": {
+    "type": "panel",
+    "layer": 0,
+    "controls": []
+  },
+
+  "button": {
+    "type": "image",
+    "layer": 0
+  },
+
+  "container_gamepad_helpers": {
+    "type": "panel"
+  },
+
+  "flying_item_renderer": {
+    "type": "panel"
+  },
+
+  "selected_item_details_factory": {
+    "type": "panel"
+  },
+
+  "selected_item_details": {
+    "type": "panel"
+  },
+
+  "root_panel": {
+    "type": "panel",
+    "layer": 1
+  },
+
+  "common_panel": {
+    "type": "panel"
+  },
+
+  "inventory_panel_bottom_half_with_label": {
+    "type": "panel"
+  },
+
+  "hotbar_grid_template": {
+    "type": "grid"
+  },
+
+  "inventory_take_progress_icon_button": {
+    "type": "panel"
+  },
+
+  "inventory_selected_icon_button": {
+    "type": "panel"
+  },
+
+  "gamepad_cursor_button": {
+    "type": "panel"
+  },
+
+  "container_item": {
+    "type": "panel"
+  },
+
+  "inventory_screen_common": {
+    "type": "panel"
+  },
+
+  "screen_background": {
+    "type": "image",
+    "size": [ "100%", "100%" ]
+  },
+
+  "scrolling_panel": {
+    "type": "panel"
+  },
+
+  "text_edit_box": {
+    "type": "input",
+    "size": [ "100%", "27px" ]
+  },
+
+  "item_renderer": {
+    "type": "panel"
+  },
+
+  "back_button": {
+    "type": "button"
+  },
+
+  "tts_label_focus_wrapper": {
+    "type": "panel"
+  }
+}

@@ -3,8 +3,7 @@
 
   "wolf_background": {
     "type": "panel",
-    /* 1. CRITICAL: This tells the game to hide the 3D world/Panorama */
-    "is_opaque": true, 
+    "is_opaque": true,
     "controls": [
       {
         "bg_image": {
@@ -13,16 +12,15 @@
           "size": [ "100%", "100%" ], 
           "anchor_from": "center",
           "anchor_to": "center",
-          /* 2. FIXED: Moving background to a lower layer */
           "layer": 1
         }
       },
       {
         "cyber_tint": {
           "type": "image",
-          "texture": "textures/ui/white",
-          "color": "$wolf_main_bg_color", 
-          "alpha": 0.4, 
+          "texture": "textures/ui/blank",
+          "color": "$wolf_main_bg_color",
+          "alpha": 0.4,
           "size": [ "100%", "100%" ],
           "layer": 2
         }
