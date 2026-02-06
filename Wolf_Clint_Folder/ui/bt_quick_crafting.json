@@ -9,21 +9,21 @@
       {
         "default": {
           "type": "image",
-          "texture": "textures/ui/button_default",
+          "texture": "textures/ui/button_default.png",
           "size": [ "100%", "100%" ]
         }
       },
       {
         "hover": {
           "type": "image",
-          "texture": "textures/ui/button_hover",
+          "texture": "textures/ui/button_hover.png",
           "size": [ "100%", "100%" ]
         }
       },
       {
         "pressed": {
           "type": "image",
-          "texture": "textures/ui/button_pressed",
+          "texture": "textures/ui/button_pressed.png",
           "size": [ "100%", "100%" ]
         }
       }
@@ -38,21 +38,21 @@
       {
         "default": {
           "type": "image",
-          "texture": "textures/ui/button_default",
+          "texture": "textures/ui/button_default.png",
           "size": [ "100%", "100%" ]
         }
       },
       {
         "hover": {
           "type": "image",
-          "texture": "textures/ui/button_hover",
+          "texture": "textures/ui/button_hover.png",
           "size": [ "100%", "100%" ]
         }
       },
       {
         "pressed": {
           "type": "image",
-          "texture": "textures/ui/button_pressed",
+          "texture": "textures/ui/button_pressed.png",
           "size": [ "100%", "100%" ]
         }
       }

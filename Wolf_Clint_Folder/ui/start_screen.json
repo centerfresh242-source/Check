@@ -7,7 +7,7 @@
       {
         "background_image": {
           "type": "image",
-          "texture": "textures/ui/background", 
+          "texture": "textures/ui/background.png",
           "size": [ "100%", "100%" ]
         }
       }
@@ -31,7 +31,7 @@
             {
               "wolf_logo": {
                 "type": "image",
-                "texture": "textures/ui/wolf_logo",
+                "texture": "textures/ui/wolf_logo.png",
                 "size": [ "128px", "128px" ]
               }
             },

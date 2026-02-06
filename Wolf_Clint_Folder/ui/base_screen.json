@@ -8,7 +8,7 @@
       {
         "bg_image": {
           "type": "image",
-          "texture": "textures/ui/background",
+          "texture": "textures/ui/background.png",
           "size": [ "100%", "100%" ], 
           "anchor_from": "center",
           "anchor_to": "center",
@@ -18,7 +18,7 @@
       {
         "cyber_tint": {
           "type": "image",
-          "texture": "textures/ui/blank",
+          "texture": "textures/ui/blank.png",
           "color": "$wolf_main_bg_color",
           "alpha": 0.4,
           "size": [ "100%", "100%" ],

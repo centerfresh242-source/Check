@@ -76,7 +76,7 @@
         "title_image": {
           "type": "image",
           "offset": [ -9 , 10 ],
-          "texture": "textures/ui/lunarchest"
+          "texture": "textures/ui/lunarchest.png"
         }
       }   
   ]

@@ -24,7 +24,7 @@
             {
               "background": {
                 "type": "image",
-                "texture": "textures/ui/pause_background",
+                "texture": "textures/ui/background.png",
                 "size": [ "100%", "100%" ],
                 "renderer": "gradient_mask", 
                 "nine_slice_size": [ "10px", "10px", "10px", "10px" ], 

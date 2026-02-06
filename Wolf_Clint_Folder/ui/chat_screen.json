@@ -6,7 +6,7 @@
             7,
             8
         ],
-        "texture": "textures/ui/chat_down_arrow"
+        "texture": "textures/ui/chat_down_arrow.png"
     },
     "keyboard_image": {
         "type": "image",
@@ -14,7 +14,7 @@
             9,
             7
         ],
-        "texture": "textures/ui/chat_keyboard"
+        "texture": "textures/ui/chat_keyboard.png"
     },
     "gear_image": {
         "type": "image",
@@ -22,7 +22,7 @@
             14,
             14
         ],
-        "texture": "textures/ui/gear"
+        "texture": "textures/ui/gear.png"
     },
     "previous_message_image": {
         "type": "image",
@@ -30,7 +30,7 @@
             5,
             14
         ],
-        "texture": "textures/ui/advanchat/previous_message"
+        "texture": "textures/ui/advanchat/previous_message.png"
     },
     "next_message_image": {
         "type": "image",
@@ -38,7 +38,7 @@
             5,
             14
         ],
-        "texture": "textures/ui/advanchat/next_message"
+        "texture": "textures/ui/advanchat/next_message.png"
     },
     "autocomplete_back_image": {
         "type": "image",
@@ -46,7 +46,7 @@
             10,
             14
         ],
-        "texture": "textures/ui/advanchat/autocomplete_back"
+        "texture": "textures/ui/advanchat/autocomplete_back.png"
     },
     "autocomplete_image": {
         "type": "image",
@@ -54,7 +54,7 @@
             10,
             14
         ],
-        "texture": "textures/ui/advanchat/autocomplete"
+        "texture": "textures/ui/advanchat/autocomplete.png"
     },
     "send_image": {
         "type": "image",
@@ -62,7 +62,7 @@
             21,
             18
         ],
-        "texture": "textures/ui/chat_send"
+        "texture": "textures/ui/chat_send.png"
     },
     "send_panel": {
         "type": "stack_panel",
@@ -469,7 +469,7 @@
             "100%",
             "100%c"
         ],
-        "texture": "textures/ui/White",
+        "texture": "textures/ui/white.png",
         "color": [
             0.0,
             0.0,
@@ -825,7 +825,7 @@
             "100%",
             "100%"
         ],
-        "texture": "textures/ui/White",
+        "texture": "textures/ui/white.png",
         "color": [
             0.0,
             0.0,
