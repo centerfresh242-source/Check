@@ -6,7 +6,7 @@
     "$toggle_view_binding_name": "profile_button_toggle",
     "$glyph_texture": "textures/ui/profile_glyph",
     "$glyph_color_texture": "textures/ui/profile_glyph_color",
-    "$glyph_size": [ 11, 12 ],
+    "$glyph_size": [ "11px", "12px" ],
     "$button_text": "options.profile",
     "$toggle_property_bag": {
       "#panel_title": "options.profileTitle"
@@ -34,7 +34,7 @@
             {
               "error_glyph": {
                 "type": "image",
-                "size": [ 9, 9 ],
+                "size": [ "9px", "9px" ],
                 "texture": "textures/ui/ErrorGlyph"
               }
             },
@@ -64,7 +64,7 @@
             {
               "section_divider": {
                 "type": "image",
-                "size": [ "100% - 30px", 1 ],
+                "size": [ "100% - 30px", "1px" ],
                 "anchor_from": "center",
                 "anchor_to": "center",
                 "layer": 3,
@@ -91,8 +91,8 @@
               "icon": {
                 "type": "image",
                 "texture": "textures/ui/switch_accounts",
-                "size": [ 29, 10 ],
-                "offset": [ 2, 2 ]
+                "size": [ "29px", "10px" ],
+                "offset": [ "2px", "2px" ]
               }
             }
           ]
@@ -162,7 +162,7 @@
       {
         "content_log_section_label_spacer": {
           "type": "panel",
-          "size": [ "100%", 7 ]
+          "size": [ "100%", "7px" ]
         }
       },
       {
@@ -210,7 +210,7 @@
       {
         "content_log_location_label_header_spacer": {
           "type": "panel",
-          "size": [ "100%", 2 ]
+          "size": [ "100%", "2px" ]
         }
       },
       {
@@ -533,7 +533,7 @@
             {
               "spacer_0": {
                 "type": "panel",
-                "size": [ "100%", 4 ]
+                "size": [ "100%", "4px" ]
               }
             },
             {
@@ -546,13 +546,13 @@
             {
               "spacer_1": {
                 "type": "panel",
-                "size": [ "100%", 4 ]
+                "size": [ "100%", "4px" ]
               }
             },
             {
               "copyright_icon": {
                 "type": "image",
-                "size": [ 117, 41 ],
+                "size": [ "117px", "41px" ],
                 "texture": "textures/ui/third_party_copyright"
               }
             }
@@ -562,7 +562,7 @@
       {
         "spacer_10": {
           "type": "panel",
-          "size": [ "100%", 1 ]
+          "size": [ "100%", "1px" ]
         }
       },
       {
@@ -573,7 +573,7 @@
             {
               "section_divider": {
                 "type": "image",
-                "size": [ "100% - 30px", 1 ],
+                "size": [ "100% - 30px", "1px" ],
                 "anchor_from": "center",
                 "anchor_to": "center",
                 "layer": 3,
@@ -598,7 +598,7 @@
             {
               "section_divider": {
                 "type": "image",
-                "size": [ "100% - 30px", 1 ],
+                "size": [ "100% - 30px", "1px" ],
                 "anchor_from": "center",
                 "anchor_to": "center",
                 "layer": 3,
@@ -617,7 +617,7 @@
               "build_id_label": {
                 "type": "label",
                 "color": "$body_text_color",
-                "offset": [ 2, 0 ],
+                "offset": [ "2px", "0px" ],
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
                 "text": "#build_id",
@@ -632,7 +632,7 @@
               "protocol_version_label": {
                 "type": "label",
                 "color": "$body_text_color",
-                "offset": [ 2, 0 ],
+                "offset": [ "2px", "0px" ],
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
                 "text": "#protocol_version",
@@ -648,7 +648,7 @@
                 "type": "label",
                 "size": [ "100%", "default" ],
                 "color": "$body_text_color",
-                "offset": [ 2, 0 ],
+                "offset": [ "2px", "0px" ],
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
                 "text": "#device_id",
@@ -663,7 +663,7 @@
               "MinecraftAccount_id_label": {
                 "type": "label",
                 "color": "$body_text_color",
-                "offset": [ 2, 0 ],
+                "offset": [ "2px", "0px" ],
                 "size": [ "100%", "default" ],
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
@@ -679,7 +679,7 @@
               "commerce_id_label": {
                 "type": "label",
                 "color": "$body_text_color",
-                "offset": [ 2, 0 ],
+                "offset": [ "2px", "0px" ],
                 "size": [ "100%", "default" ],
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
@@ -695,7 +695,7 @@
               "account_transfer_status_label": {
                 "type": "label",
                 "color": "$body_text_color",
-                "offset": [ 2, 0 ],
+                "offset": [ "2px", "0px" ],
                 "size": [ "100%", "default" ],
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
@@ -711,7 +711,7 @@
               "build_date_label": {
                 "type": "label",
                 "color": "$body_text_color",
-                "offset": [ 2, 0 ],
+                "offset": [ "2px", "0px" ],
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
                 "text": "#build_date",
@@ -726,7 +726,7 @@
               "world_converter_label": {
                 "type": "label",
                 "color": "$body_text_color",
-                "offset": [ 2, 0 ],
+                "offset": [ "2px", "0px" ],
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
                 "text": "#world_conversion_version",
@@ -792,7 +792,7 @@
         "sign_in": {
           "ignored": "(not $is_pregame or not $is_xboxlive_enabled)",
           "type": "panel",
-          "size": [ "100%", 12 ],
+          "size": [ "100%", "12px" ],
           "controls": [
             {
               "please_signin_label": {
@@ -904,7 +904,7 @@
         "xboxlive_deep_link_buttons": {
           "ignored": "($device_must_be_removed_for_xbl_signin or $fire_tv or not $is_pregame or $disable_gamertag_controls)",
           "type": "panel",
-          "size": [ "100%", 62 ],
+          "size": [ "100%", "62px" ],
           "$manage_button_size|default": [ "50% - 1px", 30 ],
           "variables": [
             {
@@ -1099,8 +1099,8 @@
     "$button_text": "menu.storageManagement",
     "$glyph_texture": "textures/ui/storageIcon",
     "$glyph_color_texture": "textures/ui/storageIconColor",
-    "$glyph_uv": [ 0, 0 ],
-    "$glyph_size": [ 17, 16 ],
+    "$glyph_uv": [ "0px", "0px" ],
+    "$glyph_size": [ "17px", "16px" ],
     "$toggle_property_bag": {
       "#panel_title": "menu.storageManagement"
     }
@@ -1145,7 +1145,7 @@
     "$toggle_view_binding_name": "video_button_toggle",
     "$glyph_texture": "textures/ui/video_glyph",
     "$glyph_color_texture": "textures/ui/video_glyph_color",
-    "$glyph_size": [ 15, 12 ],
+    "$glyph_size": [ "15px", "12px" ],
     "$button_text": "options.video",
     "$toggle_property_bag": {
       "#panel_title": "options.videoTitle"
@@ -1894,7 +1894,7 @@
       {
         "left_button@common_buttons_concept.purple_button": {
           "size": [ "48%", "100%" ],
-          "max_size": [ 60, "100%" ],
+          "max_size": [ "60px", "100%" ],
           "$button_content": "general_section.left_button_label",
           "$pressed_button_name": "$left_pressed_button_name",
           "$left_button_bindings|default": [
@@ -1916,13 +1916,13 @@
       {
         "pad_0": {
           "type": "panel",
-          "size": [ 3, "100%" ]
+          "size": [ "3px", "100%" ]
         }
       },
       {
         "right_button@common_buttons_concept.purple_button": {
           "size": [ "48%", "100%" ],
-          "max_size": [ 60, "100%" ],
+          "max_size": [ "60px", "100%" ],
           "$button_content": "general_section.right_button_label",
           "$pressed_button_name": "$right_pressed_button_name",
           "bindings": [
@@ -1936,7 +1936,7 @@
       {
         "pad_1": {
           "type": "panel",
-          "size": [ 3, "100%" ]
+          "size": [ "3px", "100%" ]
         }
       }
     ]
@@ -1955,13 +1955,13 @@
           "controls": [
             {
               "padded_icon_0@common.empty_panel": {
-                "size": [ 3, 0 ]
+                "size": [ "3px", "0px" ]
               }
             },
             {
               "limited_status_image": {
                 "type": "image",
-                "size": [ 15, 19 ],
+                "size": [ "15px", "19px" ],
                 "bilinear": true,
                 "texture": "textures/ui/infobulb",
                 "layer": 1
@@ -1969,7 +1969,7 @@
             },
             {
               "padded_icon_1@common.empty_panel": {
-                "size": [ 3, 0 ]
+                "size": [ "3px", "0px" ]
               }
             },
             {
@@ -2023,7 +2023,7 @@
       {
         "pad": {
           "type": "panel",
-          "size": [ 4, "100%sm" ]
+          "size": [ "4px", "100%sm" ]
         }
       },
       {
@@ -2081,7 +2081,7 @@
             {
               "bottom_pad": {
                 "type": "panel",
-                "size": [ "100%", 2 ]
+                "size": [ "100%", "2px" ]
               }
             }
           ]
@@ -2119,7 +2119,7 @@
       {
         "pad_1": {
           "type": "panel",
-          "size": [ "100%", 6 ]
+          "size": [ "100%", "6px" ]
         }
       },
       {
@@ -2131,7 +2131,7 @@
               "black_background@general_section.background": {
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
-                "size": [ "100%", 12 ]
+                "size": [ "100%", "12px" ]
               }
             },
             {
@@ -2142,7 +2142,7 @@
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
                 "layer": 3,
-                "offset": [ 2, 1 ],
+                "offset": [ "2px", "1px" ],
                 "text": "#realms_subscription_text",
                 "bindings": [
                   {
@@ -2160,7 +2160,7 @@
       {
         "pad_2": {
           "type": "panel",
-          "size": [ "100%", 6 ]
+          "size": [ "100%", "6px" ]
         }
       },
       {
@@ -2204,7 +2204,7 @@
       {
         "pad_3": {
           "type": "panel",
-          "size": [ "100%", 6 ],
+          "size": [ "100%", "6px" ],
           "bindings": [
             {
               "binding_name": "#store_mismatch_visible",
@@ -2246,7 +2246,7 @@
     "enabled": "(not $trial)",
     "$glyph_texture": "textures/ui/subscription_glyph",
     "$glyph_color_texture": "textures/ui/subscription_glyph_color",
-    "$glyph_size": [ 15, 13 ],
+    "$glyph_size": [ "15px", "13px" ],
     "$button_text": "options.viewSubscriptions",
     "$toggle_property_bag": {
       "#panel_title": "options.viewSubscriptions"
@@ -2274,7 +2274,7 @@
           "text": "options.viewSubscriptions.loadingSubscriptionsFailed",
           "text_alignment": "center",
           "color": "$body_text_color",
-          "size": [ "100%", 12 ],
+          "size": [ "100%", "12px" ],
           "bindings": [
             {
               "binding_name": "#realms_subscriptions_loading_failed_visible",
@@ -2289,7 +2289,7 @@
           "text": "options.viewSubscriptions.loadingSubscriptions",
           "text_alignment": "center",
           "color": "$body_text_color",
-          "size": [ "100%", 12 ],
+          "size": [ "100%", "12px" ],
           "bindings": [
             {
               "binding_name": "#realms_subscriptions_loading_visible",
@@ -2308,7 +2308,7 @@
               "text@common.minecraftTenLabel": {
                 "text": "options.viewSubscriptions.noActiveSubscriptions",
                 "color": "$body_text_color",
-                "size": [ "100%", 12 ]
+                "size": [ "100%", "12px" ]
               }
             },
             {
@@ -2328,13 +2328,13 @@
           "text": "options.viewSubscriptions.realmsPlus.header",
           "text_alignment": "left",
           "color": "$body_text_color",
-          "size": [ "100%", 12 ]
+          "size": [ "100%", "12px" ]
         }
       },
       {
         "pad_0": {
           "type": "panel",
-          "size": [ "100%", 6 ]
+          "size": [ "100%", "6px" ]
         }
       },
       {
@@ -2393,7 +2393,7 @@
       {
         "pad_1": {
           "type": "panel",
-          "size": [ "100%", 6 ]
+          "size": [ "100%", "6px" ]
         }
       },
       {
@@ -2404,13 +2404,13 @@
           "text": "options.viewSubscriptions.realms.header",
           "text_alignment": "left",
           "color": "$body_text_color",
-          "size": [ "100%", 12 ]
+          "size": [ "100%", "12px" ]
         }
       },
       {
         "pad_2": {
           "type": "panel",
-          "size": [ "100%", 6 ]
+          "size": [ "100%", "6px" ]
         }
       },
       {
@@ -2478,7 +2478,7 @@
       {
         "pad_3": {
           "type": "panel",
-          "size": [ "100%", 6 ]
+          "size": [ "100%", "6px" ]
         }
       }
     ]
@@ -2489,7 +2489,7 @@
     "$toggle_view_binding_name": "vr_button_toggle",
     "$glyph_texture": "textures/ui/vr_glyph",
     "$glyph_color_texture": "textures/ui/vr_glyph_color",
-    "$glyph_size": [ 19, 11 ],
+    "$glyph_size": [ "19px", "11px" ],
     "$button_text": "options.group.vr",
     "$toggle_property_bag": {
       "#panel_title": "options.group.vrTitle"
@@ -2691,7 +2691,7 @@
     "$toggle_view_binding_name": "accessibility_button_toggle",
     "$glyph_texture": "textures/ui/accessibility_glyph",
     "$glyph_color_texture": "textures/ui/accessibility_glyph_color",
-    "$glyph_size": [ 19, 20 ],
+    "$glyph_size": [ "19px", "20px" ],
     "$button_text": "options.accessibility",
     "$toggle_property_bag": {
       "#panel_title": "options.accessibility.title"
@@ -2767,7 +2767,7 @@
     "$toggle_view_binding_name": "sound_button_toggle",
     "$glyph_texture": "textures/ui/sound_glyph",
     "$glyph_color_texture": "textures/ui/sound_glyph_color",
-    "$glyph_size": [ 16, 12 ],
+    "$glyph_size": [ "16px", "12px" ],
     "$button_text": "options.sounds",
     "$toggle_property_bag": {
       "#panel_title": "options.sounds.title"
@@ -3357,7 +3357,7 @@
       {
         "padding1": {
           "type": "panel",
-          "size": [ "100%", 3 ]
+          "size": [ "100%", "3px" ]
         }
       },
       {
@@ -3370,7 +3370,7 @@
       {
         "padding2": {
           "type": "panel",
-          "size": [ "100%", 3 ]
+          "size": [ "100%", "3px" ]
         }
       },
       {
@@ -3402,7 +3402,7 @@
       {
         "padding_reset_day_one": {
           "type": "panel",
-          "size": [ "100%", 3 ]
+          "size": [ "100%", "3px" ]
         }
       },
       {
@@ -3414,7 +3414,7 @@
       {
         "padding_core_ui": {
           "type": "panel",
-          "size": [ "100%", 3 ]
+          "size": [ "100%", "3px" ]
         }
       },
       {
@@ -3513,7 +3513,7 @@
     "$toggle_view_binding_name": "broadcast_button_toggle",
     "$glyph_texture": "textures/ui/broadcast_glyph",
     "$glyph_color_texture": "textures/ui/broadcast_glyph_color",
-    "$glyph_size": [ 18, 19 ],
+    "$glyph_size": [ "18px", "19px" ],
     "$button_text": "options.broadcast",
     "$toggle_property_bag": {
       "#panel_title": "options.broadcast"
@@ -3555,7 +3555,7 @@
       {
         "padding0": {
           "type": "panel",
-          "size": [ "100%", 2 ]
+          "size": [ "100%", "2px" ]
         }
       },
       {
@@ -3576,7 +3576,7 @@
         "padding1": {
           "ignored": "(not $is_ios)",
           "type": "panel",
-          "size": [ "100%", 8 ]
+          "size": [ "100%", "8px" ]
         }
       },
       {
@@ -3601,7 +3601,7 @@
         "padding2": {
           "ignored": "(not $is_ios)",
           "type": "panel",
-          "size": [ "100%", 2 ]
+          "size": [ "100%", "2px" ]
         }
       },
       {
@@ -3619,7 +3619,7 @@
     "$toggle_view_binding_name": "how_to_play_button_toggle",
     "$glyph_texture": "textures/ui/how_to_play_button_default_light",
     "$glyph_color_texture": "textures/ui/how_to_play_button_default",
-    "$glyph_size": [ 15, 15 ],
+    "$glyph_size": [ "15px", "15px" ],
     "$button_text": "menu.howToPlay",
     "visible": "(not $education_edition_china)",
     "$toggle_property_bag": {

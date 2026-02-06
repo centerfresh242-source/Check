@@ -78,7 +78,7 @@
         "setup_safe_zone": {
           "ignored": "(not $supports_user_configured_safezone or (not $is_pregame))",
           "type": "panel",
-          "size": [ "100%", 32 ],
+          "size": [ "100%", "32px" ],
           "controls": [
             {
               "action_button@settings_common.action_button": {

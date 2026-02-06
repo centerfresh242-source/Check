@@ -2,17 +2,17 @@
   "format_version": 2,
   "header": {
     "description": "Wolf Theme - Sleek PvP UI",
-    "name": "Wolf Theme V1",
-    "uuid": "49192d54-ba2d-4eac-bee3-fd21e4edc5ea",
-    "version": [1, 0, 8],
+    "name": "Wolf Theme V1.1",
+    "uuid": "2e4bd5ba-e9de-43ed-ac5a-8929a28f2b26",
+    "version": [1, 1, 0],
     "min_engine_version": [1, 21, 0]
   },
   "modules": [
     {
       "description": "Wolf Theme UI",
       "type": "resources",
-      "uuid": "2b5dd0c7-1d29-4673-a56f-090fa2271539",
-      "version": [1, 0, 8]
+      "uuid": "2593bf4e-3663-47de-ae2c-ecea0db9b2c3",
+      "version": [1, 1, 0]
     }
   ]
 }
