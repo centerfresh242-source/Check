@@ -1384,7 +1384,7 @@
 
   "nestable_button": {
     "$use_parent_size|default": "false",
-    "$nestable_button_size|default": [ "100%cm", "100%cm" ],
+    "$nestable_button_size|default": [ "100%c", "100%c" ],
     "size": "$nestable_button_size",
 
     "type": "panel",
@@ -1567,7 +1567,7 @@
             }
           ],
 
-          "$_nested_button_control_size|default": [ "100%cm", "100%c" ],
+          "$_nested_button_control_size|default": [ "100%c", "100%c" ],
           "size": "$_nested_button_control_size",
           "variables": [
             {
@@ -1579,7 +1579,7 @@
       }
     ],
 
-    "$_nested_button_base_size|default": [ "100%cm + 2px", "100%cm + 2px" ],
+    "$_nested_button_base_size|default": [ "100%c + 2px", "100%c + 2px" ],
     "size": "$_nested_button_base_size",
     "variables": [
       {
@@ -1747,7 +1747,7 @@
   "text_body_focus_border_for_controller_button@common.button": {
     "$pressed_button_name": "button.no_interaction",
     "sound_volume": "0.0",
-    "size": [ "100%", "100%cm" ],
+    "size": [ "100%", "100%c" ],
     "default_control": "",
     "pressed_control": "hover",
     "$text_control|default": "common.empty_panel",
