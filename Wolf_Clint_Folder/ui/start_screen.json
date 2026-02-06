@@ -1,0 +1,71 @@
+{
+  "namespace": "start",
+
+  "wolf_background_panel": {
+    "type": "panel",
+    "controls": [
+      {
+        "background_image": {
+          "type": "image",
+          "texture": "textures/ui/background", 
+          "size": [ "100%", "100%" ]
+        }
+      }
+    ]
+  },
+
+  "main_screen_content": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {
+        "content_stack": {
+          "type": "stack_panel",
+          "orientation": "vertical",
+          "size": [ "200px", "100%" ],
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "offset": [ "20px", "0px" ],
+          "controls": [
+            { "top_spacer": { "type": "panel", "size": [ "100%", "40px" ] } },
+            {
+              "wolf_logo": {
+                "type": "image",
+                "texture": "textures/ui/wolf_logo",
+                "size": [ "128px", "128px" ]
+              }
+            },
+            { "mid_spacer": { "type": "panel", "size": [ "100%", "20px" ] } },
+            {
+              "play_btn": {
+                "type": "panel",
+                "size": [ "100%", "25px" ],
+                "controls": [
+                  {
+                    "btn@common_buttons.wolf_standard_button": {
+                      "$button_text": "PLAY",
+                      "$pressed_button_name": "button.menu_play"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "main_control": {
+    "type": "panel",
+    "is_opaque": true, 
+    "controls": [
+      { 
+        "bg@wolf_base.wolf_background": { 
+          "layer": -10 
+        } 
+      },
+      { "ui_content@start.main_screen_content": { "layer": 10 } }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "namespace": "global",
+  
+  /* 🐺 Wolf Client Global Constants */
+  "$wolf_button_height": "25px",
+  "$wolf_button_width": "200px",
+  "$wolf_icon_small": "16px",
+  "$wolf_icon_medium": "24px",
+  "$wolf_icon_large": "32px",
+  "$wolf_main_padding": "10px",
+  "$wolf_header_height": "40px",
+  "$wolf_footer_height": "30px",
+  
+  /* Colors are correct as arrays */
+  "$wolf_text_color": [ 1.0, 1.0, 1.0 ],
+  "$wolf_accent_color": [ 0.2, 0.6, 1.0 ],
+  
+  /* Add these to fix the background issues we had earlier */
+  "$wolf_main_bg_color": [ 0.05, 0.05, 0.1 ],
+  "$wolf_neon_primary": [ 0.0, 0.8, 1.0 ]
+}

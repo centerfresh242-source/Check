@@ -1,0 +1,16 @@
+{
+  "ui_defs": [
+    "ui/_global_variables.json",
+    /* 1. Added Vanilla Dependencies */
+    "ui/common.json",
+    "ui/common_containers.json",
+    /* 2. Your Custom Files */
+    "ui/common_buttons.json",
+    "ui/base_screen.json",
+    "ui/start_screen.json",
+    "ui/pause_screen.json",
+    "ui/crafting_screen.json",
+    "ui/inventory_screen.json",
+    "ui/trade_screen.json"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "resource_pack_name": "wolf_client",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "wolf_logo": { "textures": "textures/ui/wolf_logo" },
+    "resume_icon": { "textures": "textures/ui/resume_icon" }
+  }
+}
