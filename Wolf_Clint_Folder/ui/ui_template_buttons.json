@@ -1185,7 +1185,7 @@
           "ignored": "(not $has_nested_controls and not $has_special_nested_controls)",
           "$nested_content_dark_alpha|default": "0.8",
           "type": "input_panel",
-          "size": [ "100%sm", "100%sm" ],
+          "size": [ "100%c", "100%c" ],
           "layer": "10",
           "button_mappings": [
             {
@@ -1290,7 +1290,7 @@
     "controls": [
       {
         "button_overlay@$nested_button_overlay": {
-          "size": [ "100%sm", "100%sm" ],
+          "size": [ "100%c", "100%c" ],
           "layer": "3"
         }
       },
@@ -1311,7 +1311,7 @@
                   {
                     "background@$nested_content_background_assets": {
                       "layer": "-1",
-                      "size": [ "100%sm + 2px", "100%sm + 1px" ],
+                      "size": [ "100%c + 2px", "100%c + 1px" ],
                       "offset": [ "0px",  "-0.5px" ]
                     }
                   },
@@ -1343,7 +1343,7 @@
                   {
                     "background@$nested_label_background_assets": {
                       "layer": "-1",
-                      "size": [ "100%sm + 2px", "100%sm + 2px" ]
+                      "size": [ "100%c + 2px", "100%c + 2px" ]
                     }
                   },
                   { "control_background@$nested_label_control_background": {} },
@@ -1541,7 +1541,7 @@
     "controls": [
       {
         "hover@common.empty_panel": {
-          "size": [ "100%", "100%sm" ],
+          "size": [ "100%", "100%c" ],
           "controls": [
             {
               "focus_border@achievement.focus_border": {
@@ -1697,4 +1697,3 @@
       }
     ]
   }
-}

@@ -58,7 +58,8 @@
 
   "main_control": {
     "type": "panel",
-    "is_opaque": true, 
+    "is_opaque": true,
+    "is_showing_menu": true,
     "controls": [
       { 
         "bg@wolf_base.wolf_background": { 
